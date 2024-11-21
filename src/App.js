@@ -5,7 +5,7 @@ const App = () => {
   const [value,setValue] = useState([])
   useEffect(() => {
     const getHello = async() => {
-      const response = await fetch("https://majestic-daifuku-5be413.netlify.app/")
+      const response = await fetch("https://sample-backend-y5eb.onrender.com")
       const data = await response.json();
       setValue(data)
     }
